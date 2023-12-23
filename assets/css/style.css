@@ -7,8 +7,8 @@
 }
 
 body{
-    background-color: black;
-    color: white;
+   /* background-color: black;
+    color: white;*/
     display: flex;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
@@ -61,4 +61,9 @@ button:hover{
 
 .exchangeValue{
     margin: 10px;
+}
+
+.canvas{
+    width: 500px;
+    height: 400px;
 }
