@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+div hr{
+    background-color:rgb(30, 169, 233) ;
+    height: 1px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(109, 122, 134);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.clpValue{
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.selectExchange{
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    background-color:rgb(30, 169, 233) ;
+    color: white;
+    width: 180px;
+    height: 30px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.exchangeValue{
+    margin: 10px;
+}
