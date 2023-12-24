@@ -19,15 +19,18 @@
             <input type="text" id="clpValue" placeholder="Ingrese el monto en CLP" class="clpValue">
             <h4>Moneda a convertir:</h4>
             <select id="selectExchange" class="selectExchange">
-                <option value="" selected>Seleccione moneda</option>
+                <option value="" disabled selected>Seleccione moneda</option>
             </select>
             <button id="btnExchange">Buscar</button>
             <p id="exchangeValue" class="exchangeValue"></p>
             <p><span id="error"></span></p>
         </div>
-        <h1>Grafico monedas</h1>
+        
         <div class="canvas">
-            <canvas id="chart"></canvas>
+            <hr>
+            <h1>Grafico monedas</h1>
+            <hr>
+            <canvas id="chart" class="chart"></canvas>
         </div>
             
         
